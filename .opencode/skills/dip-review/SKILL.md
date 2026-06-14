@@ -90,23 +90,15 @@ description: 数字图像处理课程复习备考辅助。Use when the user asks
 
 ## 参考资料来源
 
-原始资料在 `./source/` 下，提取后的可读版本在 `./source/extracted/` 下（markdown 格式）。
+除了 `source/extracted/` 目录下提取好的 markdown 资料外，系统现已新增往期试卷和复习资料的原文件。**必须优先从以下路径读取新增的试卷与资料，结合它们进行出题和知识梳理**：
 
-读取资料时优先使用 `./source/extracted/` 中的 `content.md` 文件。
-
-| 提取后路径 | 内容 | 重要程度 |
+| 文件路径 | 内容 | 重要程度 |
 |------------|------|----------|
-| `./source/extracted/课件/第01章 绪论/content.md` | 第1章课件 | 填空 |
-| `./source/extracted/课件/第02章 图像处理基本知识/content.md` | 第2章课件 | 填空、问答 |
-| `./source/extracted/课件/第03章 图像变换与二维数字滤波/content.md` | 第3章课件 | 综合重点 |
-| `./source/extracted/课件/第04章 图像增强/content.md` | 第4章课件 | 综合重点 |
-| `./source/extracted/课件/第05章 图像分割/content.md` | 第5章课件 | 问答 |
-| `./source/extracted/课件/第06章 图像编码与压缩1/content.md` | 第6章课件 | 综合重点 |
-| `./source/extracted/课件/第07章-图像复原1/content.md` | 第7章课件 | 问答 |
-| `./source/extracted/课件/第08章 数学形态学及其应用1/content.md` | 第8章课件 | 问答 |
-| `./source/extracted/复习资料/数字图像处理_考试总结/content.md` | 考试重点总结 | ⭐ 极重要，优先参考 |
+| `./source/往期试卷/数图试卷.pdf` | 往期真实考卷原始文件 | ⭐⭐⭐ 极重要，优先用于出大题和综合题测试 |
+| `./source/复习资料/数字图像作业合集.pdf` | 历次作业题库 | ⭐⭐ 综合复习、考点查漏补缺参考 |
+| `./source/extracted/复习资料/数字图像处理_考试总结/content.md` | 考试重点总结 | ⭐⭐⭐ 极重要，优先参考 |
 | `./source/extracted/复习资料/数字图像处理-(整理后的试题)/content.md` | 整理后的历年试题 | 出题参考 |
-| `./source/extracted/复习资料/重点/content.md` | 课程重点归纳 | 侧重点参考 |
+| `./source/extracted/课件/` | 各章节课件的 markdown 版本 | 基础理论参考 |
 | `./source/extracted/实验答案/` | 5份实验答案 | 编程题参考 |
 
-图片存放在各 `content.md` 同级的 `images/` 目录下。
+注：利用 `Read` 工具直接读取 PDF 文件，以获取最新的考点和题型，并融入出题测试和梳理中。
